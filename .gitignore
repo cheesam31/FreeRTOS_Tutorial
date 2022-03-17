@@ -1,0 +1,81 @@
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# infleran linux_system_programming
+inflearn/linux_system_programming/00.introduction/*
+!inflearn/linux_system_programming/00.introduction/*.c
+!inflearn/linux_system_programming/00.introduction/Makefile
+
+inflearn/linux_system_programming/01.file_basic/*
+!inflearn/linux_system_programming/01.file_basic/*.c
+!inflearn/linux_system_programming/01.file_basic/Makefile
+
+inflearn/linux_system_programming/02.file_lowlevel/*
+!inflearn/linux_system_programming/02.file_lowlevel/*.c
+!inflearn/linux_system_programming/02.file_lowlevel/Makefile
+
+inflearn/linux_system_programming/03.file_advanced/*
+!inflearn/linux_system_programming/03.file_advanced/*.c
+!inflearn/linux_system_programming/03.file_advanced/Makefile
+
+inflearn/linux_system_programming/04.process/*
+!inflearn/linux_system_programming/04.process/*.c
+!inflearn/linux_system_programming/04.process/Makefile
